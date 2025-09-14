@@ -5,8 +5,7 @@ import math
 import csv
 from pathlib import Path
 import requests
-import OpenAI
-from openai import OpenAI
+
 
 # ---------------------- Configuration ----------------------
 # Use Streamlit secrets for security
