@@ -9,7 +9,7 @@ from pathlib import Path
 # ---------------------- Configuration ----------------------
 # DO NOT expose API keys in plain input fields.
 # Use a secure variable or secret for deployment.
-API_KEY: ${{ secrets.My_Open_API }}
+API_KEY: {{ secrets.My_Open_API }}
 
 # ---------------------- App UI Setup ----------------------
 st.set_page_config(page_title="📈 Stock News Dashboard", layout="wide")
