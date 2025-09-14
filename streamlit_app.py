@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import math
 import csv
-from openai import OpenAI
 from pathlib import Path
 
 # ---------------------- Configuration ----------------------
