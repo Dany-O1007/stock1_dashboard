@@ -4,11 +4,12 @@ import pandas as pd
 import math
 import csv
 from pathlib import Path
+import requests
+from openai import OpenAI
 
 # ---------------------- Configuration ----------------------
-# DO NOT expose API keys in plain input fields.
-# Use a secure variable or secret for deployment.
-API_KEY: {{ secrets.My_Open_API }}
+# Use Streamlit secrets for security
+API_KEY = st.secrets["My_Open_API"]
 
 # ---------------------- App UI Setup ----------------------
 st.set_page_config(page_title="📈 Stock News Dashboard", layout="wide")
@@ -81,5 +82,3 @@ with col1:
                         st.markdown(f"**📌 Recommendation:**\n\n{recommendation}")
         else:
             st.warning("No recommendations found. Please fetch news first.")
-
-
