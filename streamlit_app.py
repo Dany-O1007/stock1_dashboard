@@ -83,4 +83,4 @@ with col1:
         else:
             st.warning("No recommendations found. Please fetch news first.")
 
-streamlit run streamlit_app.py
+
