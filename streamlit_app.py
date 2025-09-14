@@ -83,3 +83,5 @@ with col1:
                         st.markdown(f"**📌 Recommendation:**\n\n{recommendation}")
         else:
             st.warning("No recommendations found. Please fetch news first.")
+
+streamlit run streamlit_app.py
