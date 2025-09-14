@@ -1,19 +1,2 @@
-# :earth_americas: GDP dashboard template
-
-A simple Streamlit app showing the GDP of different countries in the world.
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
-
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+I created this dashboard to be able to take the news from Finviz Stock Screen, run the API through OpenAI and give back recommendations on what stocks to buy, sell, or hold. 
+I then moved the code to github so that I could be able to connect it to streamlit for the dashboard. 
